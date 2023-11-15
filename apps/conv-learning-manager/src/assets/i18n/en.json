@@ -169,6 +169,7 @@
         "WEBHOOK": "Url Input",
         "EVENT-NAME": "Event Name",
         "0PTIONAL-PAYLOAD": "Optional - Payload",
+        "LIST": "Header",
         "CONDITIONAL-BLOCK": {
           "INPUT-VARIABLE": "Type Variable",
           "SELECT-VARIABLE": "Select Variable"

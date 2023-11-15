@@ -1,7 +1,8 @@
 <div class="wide" [id]="id" *ngIf="listMessageBlock">
   <form [formGroup]="listMessageBlock" fxLayout="column" fxLayoutALign="start center">
 
-    <app-text-message [formgroup]="listMessageBlock"></app-text-message>
+    <input [id]="listBlockId" formControlName="message" type="text"
+			[placeholder]="'PAGE-CONTENT.BLOCK.PLACEHOLDER.LIST' | transloco" />
 
     <div formArrayName="options" fxFlexFill>
       <div *ngFor="let listItem of listItems.controls; let i = index">
