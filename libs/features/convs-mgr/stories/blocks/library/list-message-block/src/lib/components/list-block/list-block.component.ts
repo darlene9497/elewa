@@ -20,6 +20,8 @@ export class ListBlockComponent<T> implements AfterViewInit
   @Input() jsPlumb: BrowserJsPlumbInstance;
   @ViewChildren('optionInputFields') optionInputFields: QueryList<OptionInputFieldComponent>;
 
+  listBlockId: string;
+
   private currentIndex = 0; 
 
   readonly listOptionInputLimit = 24;

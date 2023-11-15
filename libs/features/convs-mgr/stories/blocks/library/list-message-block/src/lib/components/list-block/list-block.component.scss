@@ -30,3 +30,13 @@ textarea:focus-visible {
   margin: 0;
   padding-right: 5px;
 }
+
+input {
+  max-width: 100%;
+  margin: 0 0 0.625rem 0;
+  border: none;
+  border-radius: 0.938rem;
+  background-color: var(--convs-mgr-color-primary-background);
+  resize: none;
+  padding: 0.625rem;
+}
